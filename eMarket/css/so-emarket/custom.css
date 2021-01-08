@@ -1,0 +1,65 @@
+/*Add Css Custom Here*/
+div.tshirtecommerce-btn-group{ 
+	display: inline-block; 
+	background-color: #ff3c20;
+    border-radius: 3px;
+    margin: 0 5px;
+    padding: 0 10px;
+   
+    width: auto;
+    vertical-align: top;
+}
+div.tshirtecommerce-btn-group > a{ color: white; text-transform: uppercase;}
+/*====== Fix bugs Megamenu not showing icon font (26/1/2018) =====*/
+@media (min-width: 992px)  {
+	.common-home .navbar-compact.typeheader-1 .container-megamenu.vertical #menuHeading .megamenuToogle-pattern:before,
+	.common-home .navbar-compact.typeheader-1 .container-megamenu.vertical #menuHeading .megamenuToogle-pattern:after{display: none;}
+	.common-home .navbar-compact.typeheader-1 .container-megamenu.vertical .vertical-wrapper{
+      visibility: hidden;
+      opacity: 0;
+    }   
+    .common-home .navbar-compact.typeheader-1 .container-megamenu.vertical:hover .vertical-wrapper{
+      visibility: visible;
+      opacity: 1;
+      top: 40px; } 
+}
+@media (min-width: 992px){
+	/*.menu-vertical .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > a {    padding: 9px 0; line-height: 24px; height: auto;}
+	.menu-vertical .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > a i,
+	.menu-vertical .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > a b {
+	    display: inline-block;
+	}
+	.menu-vertical .container-megamenu.vertical .vertical-wrapper ul.megamenu > li.with-sub-menu > a:before{display: none;} */
+	.menu-vertical .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > a img{position: static; transform: inherit;}
+
+}
+
+.typeheader-12 .navbar-logo .logo{
+	min-height: 40px;
+}
+
+
+header .container-megamenu.horizontal .menu-layouts .sub-menu ul li a{ line-height: 35px; padding: 0; }
+header .container-megamenu.horizontal .shoppage .title-shoppage {
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    color: #222;
+    font-size: 16px;
+    line-height: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #eaeaea;
+}
+header .container-megamenu.horizontal .content-feature li a, 
+header .container-megamenu.horizontal ul.megamenu li .sub-menu .content .static-menu .menu ul ul li a, 
+header .container-megamenu.horizontal ul.megamenu li .sub-menu .content .html a.subcategory_item, 
+header .container-megamenu.horizontal ul.megamenu .sub-menu .content .hover-menu .menu ul a.main-menu{
+	color: #666;
+}
+header .container-megamenu.horizontal .shoppage ul li:hover{ padding: 0; }
+body .container-megamenu.vertical{ z-index: 99; }
+header .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > a i.fa{ width: 30px; padding: 0; text-align: center; }
+header .container-megamenu.vertical .vertical-wrapper ul.megamenu .loadmore{ padding-left: 46px; }
+
+.layout-17.common-home #content .module.so_newletter_custom_popup .modcontent{ border: none; }
